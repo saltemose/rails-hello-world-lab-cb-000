@@ -4,3 +4,4 @@ require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
 
 use StaticController
+run ApplicationController
